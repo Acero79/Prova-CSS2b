@@ -1,0 +1,113 @@
+.red{
+    display: flex;
+    width: 60%;
+    background-color: red;
+    
+}
+
+main{
+    display: flex;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    background-image: url(https://picsum.photos/seed/picsum/2000);
+    background-size: cover;
+}
+
+.immagine{
+    width: 300px;
+    
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;         
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+li a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin: 0px 30px;
+    font-size: 30px;
+}
+
+h1 {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blue {
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Logo{
+    width: 100px;
+    height: 100px;
+}
+
+.btn{
+    background-color: aqua;
+    color: black;
+    padding: 30px 30px;
+    cursor: pointer;
+   
+}
+    
+.sector:hover{
+    border-bottom: 10px solid blueviolet;
+    
+}
+
+.btn:hover{
+    background-color: blueviolet;
+    transition: 0.7s;
+    
+}
+
+aside{
+    background-color: rgb(219, 219, 132);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.su{
+    width: 100px;
+    position: relative;
+    top: 700px;
+    left: 1300px;
+    
+}
+
+
+
